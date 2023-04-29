@@ -88,7 +88,7 @@ Selecciona los productos que no tengan la palabra "azul" en su descripción:
 
 ```pg
 SELECT * FROM productos
-WHERE descripcion NOT ILIKE '%azul%';
+WHERE descripcion NOT LIKE '%azul%';
 ```
 
 ### Actualizar datos
