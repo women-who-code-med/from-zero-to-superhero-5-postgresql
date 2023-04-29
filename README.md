@@ -69,7 +69,7 @@ Selecciona los productos que contengan la palabra "rojo" en su descripción:
 
 ```pg
 SELECT * FROM productos
-WHERE descripcion ILIKE '%rojo%';
+WHERE descripcion LIKE '%rojo%';
 ```
 
 #### Seleccionar registros que cumplan múltiples condiciones
